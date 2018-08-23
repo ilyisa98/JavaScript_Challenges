@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+	<title>Challenge_5</title>
+</head>
+<!--    gets input from user-->
+    <div id="user_input"><input id="age" value= "" type="number" placeholder="Please enter your age."></div>
+    
+    <div id="display"></div>
+
+    <button id="button">Verify Age</button>
+	<body>
+
+    
+        
+        
+        <script>
+        'use strict';
+          
+             
+            
+            document.getElementById("button").onclick = function () {
+                let a = document.getElementById("age").value;
+                
+                if((a <= 6) || (a <= 13) || (a <= 16)) {
+                
+                document.getElementById("display").innerHTML = "You are too young to use the internet";
+                }
+
+                else if((a <= 18) || (a <= 21) || (a <= 23) || (a <= 30)){
+                
+                document.getElementById("display").innerHTML = "You are old enough to use the internet";
+                }
+            }
+            
+
+            //check for the following ages 6, 13, 16, 18, 21, 23, 30+
+            
+            
+        </script>
+</body>
+</html>

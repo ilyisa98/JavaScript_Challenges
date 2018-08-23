@@ -1,0 +1,82 @@
+.timer{
+    color: black;
+    font-size: 200px;
+    border: 1px solid black;
+    padding-bottom: 10px;
+    width: 500px;
+    height: 200px;
+}
+
+.fifteen, .fourteen, .thirteen, .twelve, .eleven, .ten, .nine, .eight, .seven, .six, .five, .four, .three, .two, .one, .zero{
+    color: orange;
+    font-size: 200px;
+    border: 1px solid black;
+    width: 250px;
+    height: 150px;
+    background: transparent;
+    position :absolute;
+    z-index: 10;
+    top: -400px;
+    left: 260px;
+    animation: mymove 1s;
+}
+.nine, .eight, .seven, .six, .five, .four, .three, .two, .one, .zero{
+    color: red;
+}
+
+
+/*
+.fourteen{
+    animation-delay: 1s;
+}
+*/
+.thirteen{
+    animation-delay: 2s;
+}
+.twelve{
+    animation-delay: 3s;
+}
+.eleven{
+    animation-delay: 4s;
+}
+.ten{
+    animation-delay: 5s;
+}
+.nine{
+    animation-delay: 6s;
+}
+.eight{
+    animation-delay: 7s;
+}
+.seven{
+    animation-delay: 8s;
+}
+.six{
+    animation-delay: 9s;
+}
+.five{
+    animation-delay: 10s;
+}
+.four{
+    animation-delay: 11s;
+}
+.three{
+    animation-delay: 12s;
+}
+.two{
+    animation-delay: 13s;
+}
+.one{
+    animation-delay: 14s;
+}
+.zero{
+    animation-delay: 15s;
+}
+
+
+
+
+@keyframes mymove {
+    from {top: -350px;}
+    to {top: -200px;}
+}

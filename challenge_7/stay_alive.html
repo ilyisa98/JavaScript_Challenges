@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Challenge_7</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+    
+    
+    
+	<body>
+
+        <div class ="timer">
+            
+            
+            
+        </div>
+            <div class="fifteen"><p>15</p></div>
+            <div class="fourteen"><p>14</p></div>
+            <div class="thirteen"><p>13</p></div>
+            <div class="twelve"><p>12</p></div>
+            <div class="eleven"><p>11</p></div>
+            <div class="ten"><p>10</p></div>
+            <div class="nine"><p>09</p></div>
+            <div class="eight"><p>08</p></div>
+            <div class="seven"><p>07</p></div>
+            <div class="six"><p>06</p></div>
+            <div class="five"><p>05</p></div>
+            <div class="four"><p>04</p></div>
+            <div class="three"><p>03</p></div>
+            <div class="two"><p>02</p></div>
+            <div class="one"><p>01</p></div>
+            <div class="zero"><p>00</p></div>
+        
+     <script>
+        
+        let countdown = ["fifteen", "fourteen"]; 
+         
+         
+        for (i = 0; i = countdown.length; i++){
+            document.getElementsByClassName(countdown[i]).style.animation.delay = 1;
+        }
+        
+        </script>
+        
+        
+    <script>
+        
+         let i = 15; //start num
+        
+        setInterval(timedCount1,1000); //timer pace
+        
+        function timedCount1() { //timer function
+            
+//            if (i >= 10){
+            
+            document.getElementsByClassName("timer").innerHTML = "00" + ":"; //get timer, and count backwards
+            
+//            }
+            
+//           else if(i < 10){ 
+//                
+//               document.getElementById("timer").innerHTML = "00" + ":0" + i--;
+//               
+//            } //add 0 when timer hits less than 10
+            
+//             while (i < -1 ){ // if i = 0 - do nothing
+//                
+//                document.getElementsByClassName("timer");
+//            }
+            
+            
+            
+        } timedCount1(); //call function
+
+        
+        
+        
+        
+        </script>    
+        
+</body>
+</html>

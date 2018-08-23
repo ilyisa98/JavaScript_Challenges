@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Challenge_6</title>
+</head>
+
+    <div id="red">RED</div>
+    <div id="orange">ORANGE</div>
+    <div id="yellow">YELLOW</div>
+    <div id="green">GREEN</div>
+    <div id="blue">BLUE</div>
+    <div id="indigo">INDIGO</div>
+    <div id="violet">VIOLET</div>
+    
+    
+	<body>
+
+        
+        <script>
+        'use strict';
+          //declare array rainbows with all 7 colours in correct order  
+         let rainbow = [ "red", "orange","yellow", "green", "blue", "indigo","violet"];   
+            
+            
+        //A for loop needs to render your divs, colours and names. There will be no click event happening on the page.
+            
+            for (var i = 0; i < rainbow.length; i++){
+                document.getElementById(rainbow[i]).style.backgroundColor = (rainbow[i]);
+            }
+         
+            
+            
+        </script>
+</body>
+</html>
